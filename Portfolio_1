@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khamari's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: lightblue
+        }
+
+        .block {
+            background-color: white;
+            margin: 30px 0;
+            padding: 30px;
+
+        }
+
+        .block img {
+            float: left;
+            margin-right: 30px;
+        }
+
+        footer {
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Khamari Thompson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="block">
+                    <h3 class="block-header">
+                        About Me
+                    </h3>
+                    <hr />
+
+                    <img src="Portfolio AboutMe img.jpg" alt="Me and my son Omari" style="height: 200px; width: 200px">
+                    <p>Hi! My name is Khamari Thompson, and if you are reading this I want to thank you
+                        for considering me for a job with your company. The first thing you should know about me is that
+                        I'm
+                        a quick learner. I take information and I try to figure out how I can use it to the best of my
+                        ability. With that being said, you should know I have never coded, or developed a website before
+                        this boot camp. The reason I decided to do so is to create a better path for me and my family. I
+                        have a son who turned five on April 20th and just got good news that I have another bundle of
+                        joy
+                        set to arrive in September. They deserve the best and I will ensure that is what they have. I'm
+                        not
+                        the smartest nor do I have the best computer skills, but I am dedicated to start something I
+                        know
+                        will set me and my family up for the rest of my life.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer" style="width: 100%; background-color: darkgrey;">
+        <div class="text-center">@Khamari</div>
+    </footer>
+
+</body>
+
+
+</html>
